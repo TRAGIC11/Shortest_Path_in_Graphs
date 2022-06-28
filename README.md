@@ -2,7 +2,7 @@
 
 The purpose of this project was to compare different shortest path finding algorithms.
 We have used the real map of the New York City from [source](http://www.diag.uniroma1.it//~challenge9/download.shtml). This graph has 264,346 nodes and 733,846 edges.
-We will now compare multiple algorithms to find shortest path from point A to point B on the same map. Some algorithms might be better than the other in some specific situations, to take care of this we use 1000 queries and consider total time taken to process these 1000 queries will be considered to compare these algorithms.
+We will now compare multiple algorithms to find shortest path from point A to point B on the same map. Some algorithms might be better than the other in some specific situations, to take care of this we use 1000 queries and consider total time taken to process these 1000 queries to compare these algorithms.
 <br/>
 
 The first algorithm, when talking about shortest path in graphs, is Dijkstra's Algorithm.
@@ -25,7 +25,7 @@ Almost 4 times faster than the Dijkstra's.<br>
 We can still see that these algorithms lack the sense of direction in which they should head.
 
 ## A* Algorithm:
-Well A* algorithm seems to know in which direction you should head. This algorithm processes even less nodes. Total time taken here is 155 seconds to process all the 1000 queries. <br>
+Well A* algorithm seems to know in which direction it should head. This algorithm processes even less nodes. Total time taken here is 155 seconds to process all the 1000 queries. <br>
 ![A* Algorithm](https://github.com/TRAGIC11/Shortest_Path_in_Graphs/blob/main/images/Astar.png) <br>
 
 > Time taken: 154.3322422504425 secs
